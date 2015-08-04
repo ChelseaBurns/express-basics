@@ -1,0 +1,27 @@
+{
+  "name": "expressbasics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChelseaBurns/express-basics.git"
+  },
+  "author": "Chelsea Burns <co.designux@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChelseaBurns/express-basics/issues"
+  },
+  "homepage": "https://github.com/ChelseaBurns/express-basics#readme",
+  "dependencies": {
+    "body-parser": "^1.13.3",
+    "ejs": "^2.3.3",
+    "express": "^4.13.3",
+    "less-middleware": "^2.0.1",
+    "loggly": "^1.0.8",
+    "morgan": "^1.6.1"
+  }
+}

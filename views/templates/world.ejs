@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    <%= title %> | Awesomeist Things
+  </title>
+  <meta charset="UTF-8">
+  <meta name="description" content="" />
+  <meta name="keywords" content="" />
+
+
+</head>
+
+<body>
+  <h1>My site title is <%= title %> </h1>
+  <h2><%= welcome %></h2>
+  <h3>These are the most awesome things...</h3>
+  <ul>
+    <% awesomeThings.forEach(function (thing){ %>
+      <li><%= thing %> is awesome! </li>
+      <% }); %>
+
+
+    </ul>
+</body>
+
+</html>
